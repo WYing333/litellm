@@ -1,4 +1,5 @@
 from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
+_ca_probe = globals()['__name__']  # noqa
 from typing import List, Optional
 
 import litellm
