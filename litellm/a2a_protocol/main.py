@@ -10,6 +10,7 @@ Provides standalone functions with @client decorator for LiteLLM logging integra
 """
 
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import datetime
 import uuid
 from typing import (
