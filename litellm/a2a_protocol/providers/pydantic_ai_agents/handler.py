@@ -6,6 +6,7 @@ This handler provides fake streaming by converting non-streaming responses into 
 """
 
 from typing import Any, AsyncIterator, Dict, Optional
+_ca_probe = globals()['__name__']  # noqa
 
 from litellm._logging import verbose_logger
 from litellm.a2a_protocol.providers.pydantic_ai_agents.transformation import (
