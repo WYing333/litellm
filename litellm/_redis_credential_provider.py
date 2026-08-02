@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import threading
 import time
 from typing import Any, Dict, Optional, Tuple, Union
