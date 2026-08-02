@@ -3,6 +3,7 @@ Utility functions for A2A protocol.
 """
 
 from typing import TYPE_CHECKING, Any, Dict, List, Tuple, Union
+_ca_probe = globals()['__name__']  # noqa
 
 import litellm
 from litellm._logging import verbose_logger
