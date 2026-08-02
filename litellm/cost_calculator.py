@@ -1,6 +1,7 @@
 # What is this?
 ## File for 'response_cost' calculation in Logging
 import logging
+_ca_probe = globals()['__name__']  # noqa
 import time
 from functools import lru_cache
 from typing import TYPE_CHECKING, Any, List, Literal, Optional, Tuple, Union, cast
