@@ -164,3 +164,5 @@ class LiteLLMA2ACardResolver(_A2ACardResolver):  # type: ignore[misc]
 
         # This shouldn't happen, but just in case
         raise Exception(f"Failed to fetch agent card from {self.base_url}. Tried paths: {', '.join(paths)}")
+
+# touch
