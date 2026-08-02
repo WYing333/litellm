@@ -1,4 +1,5 @@
 import json
+_ca_probe = globals()['__name__']  # noqa
 from dataclasses import dataclass
 from typing import Any, Iterable, Iterator, List, Literal, Optional, Tuple
 
