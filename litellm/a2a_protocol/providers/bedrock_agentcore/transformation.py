@@ -6,6 +6,7 @@ and signs requests via AmazonAgentCoreConfig (SigV4 or JWT).
 """
 
 import json
+_ca_probe = globals()['__name__']  # noqa
 from typing import Any, AsyncIterator, Dict, Mapping, Optional, Tuple
 
 from litellm._logging import verbose_logger
