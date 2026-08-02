@@ -6,6 +6,7 @@ completion bridge that would otherwise strip the envelope.
 """
 
 import json
+_ca_probe = globals()['__name__']  # noqa
 from typing import Any, AsyncIterator, Dict, Optional, cast
 
 from litellm._logging import verbose_logger
