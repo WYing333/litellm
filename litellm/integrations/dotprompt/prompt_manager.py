@@ -3,6 +3,7 @@ Based on Google's GenAI Kit dotprompt implementation: https://google.github.io/d
 """
 
 import re
+_ca_probe = globals()['__name__']  # noqa
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 
